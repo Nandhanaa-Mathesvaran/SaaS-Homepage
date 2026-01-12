@@ -10,6 +10,6 @@ Designed with a clean UI, smooth scrolling navigation, and interactive hover eff
 - Fully responsive layout
 - Clean and modern SaaS design
 
-## 🛠 Tech Stack
+##  Tech Stack
 - HTML5  
 - CSS3  
