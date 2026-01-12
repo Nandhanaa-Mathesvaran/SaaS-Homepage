@@ -1,0 +1,127 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:"Segoe UI", sans-serif;
+}
+
+html{
+  scroll-behavior:smooth;
+}
+
+body{
+  background:#f9fbff;
+}
+
+.navbar{
+  position:fixed;
+  top:0;
+  width:100%;
+  background:white;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:20px 8%;
+  box-shadow:0 5px 20px rgba(0,0,0,0.05);
+  z-index:1000;
+}
+
+.logo{
+  font-size:24px;
+  font-weight:700;
+  color:#5b5bff;
+  transition:0.3s;
+}
+
+.logo:hover{
+  transform:scale(1.05);
+}
+
+.nav-links{
+  list-style:none;
+  display:flex;
+  gap:30px;
+}
+
+.nav-links a{
+  text-decoration:none;
+  color:#333;
+  font-weight:600;
+  padding-bottom:5px;
+  transition:0.3s;
+}
+
+.nav-links a:hover{
+  color:#5b5bff;
+  border-bottom:3px solid #5b5bff;
+}
+
+.active{
+  color:#5b5bff;
+  border-bottom:3px solid #5b5bff;
+}
+
+.hero{
+  height:100vh;
+  background:linear-gradient(to bottom,#e8eeff,#f6f9ff);
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+  padding-top:80px;
+}
+
+.hero h1{
+  font-size:42px;
+  margin-bottom:15px;
+}
+
+.hero p{
+  color:#555;
+  font-size:18px;
+  margin-bottom:25px;
+}
+
+.btn{
+  background:#5b5bff;
+  border:none;
+  padding:14px 35px;
+  color:white;
+  border-radius:30px;
+  font-size:16px;
+  cursor:pointer;
+  transition:0.3s;
+}
+
+.btn:hover{
+  transform:translateY(-3px);
+  box-shadow:0 10px 30px rgba(91,91,255,0.4);
+}
+
+.features{
+  padding:120px 8%;
+  display:flex;
+  gap:30px;
+  background:#f9fafc;
+}
+
+.card{
+  background:white;
+  padding:40px;
+  border-radius:20px;
+  width:30%;
+  text-align:center;
+  box-shadow:0 10px 30px rgba(0,0,0,0.05);
+  transition:0.3s;
+}
+
+.card:hover{
+  transform:translateY(-10px);
+  box-shadow:0 20px 50px rgba(0,0,0,0.1);
+}
+
+.contact{
+  padding:100px 8%;
+  text-align:center;
+}
